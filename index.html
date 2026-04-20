@@ -61,7 +61,7 @@
                 <span class="title-line title-accent">стань мастером маникюра</span>
                 <span class="title-line">и зарабатывай на творчестве!</span>
             </h1>
-            <p class="hero-subtitle">Маникюр — это не просто красота, это твоя стабильность и свобода!</p>
+            <p class="hero-subtitle">Маникюр - это не просто красота, это твоя стабильность и свобода!</p>
             <div class="hero-cta">
                 <a href="#benefits" class="btn btn-primary btn-lg">
                     <span>Узнать больше</span>
@@ -94,7 +94,7 @@
             <div class="section-header">
                 <span class="section-label">Почему стоит выбрать</span>
                 <h2 class="section-title">Профессию мастера маникюра?</h2>
-                <p class="section-desc">Растущий рынок, высокая зарплата, творческая профессия — всё это маникюр!</p>
+                <p class="section-desc">Растущий рынок, высокая зарплата, творческая профессия - всё это маникюр!</p>
             </div>
             
             <div class="benefits-grid">
@@ -105,7 +105,7 @@
                         </svg>
                     </div>
                     <h3>Высокий спрос</h3>
-                    <p>Красивые и ухоженные ногти нужны всегда — в любой сезон и в любой экономической ситуации.</p>
+                    <p>Красивые и ухоженные ногти нужны всегда - в любой сезон и в любой экономической ситуации.</p>
                 </div>
                 
                 <div class="benefit-card">
@@ -116,7 +116,7 @@
                         </svg>
                     </div>
                     <h3>Гибкий график</h3>
-                    <p>Можно работать на себя, выбирать удобное время и место — салон, дом или выезд к клиенту.</p>
+                    <p>Можно работать на себя, выбирать удобное время и место - салон, дом или выезд к клиенту.</p>
                 </div>
                 
                 <div class="benefit-card">
@@ -126,7 +126,7 @@
                         </svg>
                     </div>
                     <h3>Творческая работа</h3>
-                    <p>Каждый день — новые дизайны и вдохновение, возможность реализовать свой стиль и фантазию.</p>
+                    <p>Каждый день - новые дизайны и вдохновение, возможность реализовать свой стиль и фантазию.</p>
                 </div>
                 
                 <div class="benefit-card">
@@ -220,16 +220,13 @@
                 <div class="about-image">
                     <div class="image-frame">
                         <img src="2.jpg" alt="Хамитова Нина Геннадьевна" loading="lazy">
-                        <div class="image-badge">
-                            <span class="badge-years">26</span>
-                            <span class="badge-text">лет опыта</span>
-                        </div>
+                        
                     </div>
                 </div>
                 
                 <div class="about-content">
-                    <span class="section-label">О сертифицированном инструкторе</span>
                     <h2 class="section-title">Хамитова Нина<br>Геннадьевна</h2>
+                    <span class="section-label">Сертифицированный инструктор</span>
                     
                     <div class="about-text">
                         <p>Я работаю в nail-индустрии уже <strong>26 лет</strong>, из них <strong>17 лет</strong> посвятила обучению мастеров маникюра.</p>
@@ -293,5 +290,44 @@
     </footer>
 
     <script src="app.js"></script>
+
+    <!-- DEBUG: Color Theme Picker -->
+    <div id="theme-debug-panel">
+        <button id="theme-debug-toggle" title="Цветовые схемы">🎨</button>
+        <div id="theme-debug-menu">
+            <div class="theme-debug-header">Цветовые схемы</div>
+            <div class="theme-debug-list">
+                <button class="theme-btn active" data-theme="warm-espresso">
+                    <span class="theme-swatch" style="background:linear-gradient(135deg,#2a1205,#d4a032,#c4877a)"></span>
+                    <span>Эспрессо + Золото</span>
+                </button>
+                <button class="theme-btn" data-theme="dark-plum">
+                    <span class="theme-swatch" style="background:linear-gradient(135deg,#1a0a1e,#9b59b6,#e8a0c0)"></span>
+                    <span>Тёмная слива</span>
+                </button>
+                <button class="theme-btn" data-theme="noir-rose">
+                    <span class="theme-swatch" style="background:linear-gradient(135deg,#0f0a0a,#c0392b,#f1948a)"></span>
+                    <span>Нуар + Роза</span>
+                </button>
+                <button class="theme-btn" data-theme="warm-ivory">
+                    <span class="theme-swatch" style="background:linear-gradient(135deg,#faf6f0,#8b5e3c,#d4a032)"></span>
+                    <span>Слоновая кость</span>
+                </button>
+                <button class="theme-btn" data-theme="deep-burgundy">
+                    <span class="theme-swatch" style="background:linear-gradient(135deg,#1a0010,#7b1c3e,#e8a0b0)"></span>
+                    <span>Бургундский</span>
+                </button>
+                <button class="theme-btn" data-theme="charcoal-copper">
+                    <span class="theme-swatch" style="background:linear-gradient(135deg,#1c1c1c,#b87333,#e8c5a0)"></span>
+                    <span>Графит + Медь</span>
+                </button>
+                <button class="theme-btn" data-theme="forest-gold">
+                    <span class="theme-swatch" style="background:linear-gradient(135deg,#0d1a0a,#6b7c3a,#d4c075)"></span>
+                    <span>Тёмный лес + Золото</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="theme-debug.js"></script>
 </body>
 </html>
